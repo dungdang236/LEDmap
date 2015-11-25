@@ -15,6 +15,7 @@
 		3F2B1D931C06263E00A165AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B1D911C06263E00A165AE /* LaunchScreen.storyboard */; };
 		3F2B1D9E1C06263F00A165AE /* LEDmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B1D9D1C06263F00A165AE /* LEDmapTests.m */; };
 		3F2B1DA91C06263F00A165AE /* LEDmapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B1DA81C06263F00A165AE /* LEDmapUITests.m */; };
+		3F2D33C51C063D0600820F42 /* 1447772445_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D33C41C063D0600820F42 /* 1447772445_refresh.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3F2B1DA41C06263F00A165AE /* LEDmapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDmapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2B1DA81C06263F00A165AE /* LEDmapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDmapUITests.m; sourceTree = "<group>"; };
 		3F2B1DAA1C06263F00A165AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2D33C41C063D0600820F42 /* 1447772445_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1447772445_refresh.png; path = ../../../Downloads/1447772445_refresh.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		3F2B1D821C06263E00A165AE /* LEDmap */ = {
 			isa = PBXGroup;
 			children = (
+				3F2D33C41C063D0600820F42 /* 1447772445_refresh.png */,
 				3F2B1D861C06263E00A165AE /* AppDelegate.h */,
 				3F2B1D871C06263E00A165AE /* AppDelegate.m */,
 				3F2B1D891C06263E00A165AE /* ViewController.h */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2D33C51C063D0600820F42 /* 1447772445_refresh.png in Resources */,
 				3F2B1D931C06263E00A165AE /* LaunchScreen.storyboard in Resources */,
 				3F2B1D901C06263E00A165AE /* Assets.xcassets in Resources */,
 				3F2B1D8E1C06263E00A165AE /* Main.storyboard in Resources */,
@@ -496,6 +500,7 @@
 				3F2B1DAF1C06263F00A165AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F2B1DB01C06263F00A165AE /* Build configuration list for PBXNativeTarget "LEDmapTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				3F2B1DB21C06263F00A165AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F2B1DB31C06263F00A165AE /* Build configuration list for PBXNativeTarget "LEDmapUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				3F2B1DB51C06263F00A165AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
